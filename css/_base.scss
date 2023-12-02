@@ -7,6 +7,10 @@
     padding: 0;
     text-decoration: none;
 }
+img{
+  max-width: 100%;
+}
+
 .resize-animation-stopper * {
   animation: none !important;
   transition: none !important;
@@ -18,10 +22,6 @@ body{
 
 p {
   line-height: 1.75rem;
-}
-
-img {
-  max-width: 100%;
 }
 
 .benefits {
@@ -61,6 +61,7 @@ img {
     align-items: center;
     .simple__img {
       margin-left: 2.5rem;
+      filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.322));
     }
     .simple__heading {
       letter-spacing: 1px;
@@ -84,7 +85,9 @@ img {
     justify-content: center;
     align-items: center;
     .easy__img {
+      max-width: 100%;
       margin-left: 2.5rem;
+      filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.322));
     }
     .easy__heading {
       letter-spacing: 1px;
