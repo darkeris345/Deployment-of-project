@@ -270,7 +270,7 @@ w-400 {
   .hamburger {
     position: absolute;
     z-index: 4;
-    top: 2.5rem;
+    top: 3.1rem;
     right: 1.5rem;
     cursor: pointer;
     background-color: transparent;
@@ -316,6 +316,11 @@ w-400 {
     font-size: 0.9375rem;
   }
   .menu .mobile__btn {
+    font-size: 0.9375rem;
+    color: #FBFCFE;
+    font-family: "Public Sans";
+    border: none;
+    font-weight: 700;
     width: 252px;
     height: 48px;
     border-radius: 1.5rem;
@@ -575,6 +580,7 @@ w-400 {
     color: #FBFCFE;
     font-family: "Public Sans";
     border: none;
+    font-weight: 700;
     width: 173px;
     height: 48px;
     border-radius: 24px;
@@ -726,6 +732,7 @@ w-400 {
     color: #FBFCFE;
     font-family: "Public Sans";
     border: none;
+    font-weight: 700;
     width: 173px;
     height: 48px;
     border-radius: 24px;
