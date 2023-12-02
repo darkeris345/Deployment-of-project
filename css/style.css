@@ -281,12 +281,13 @@ w-400 {
     transform: translateY(4px);
   }
   .closeIcon {
+    right: 1.5rem;
     display: none;
     background-color: transparent;
     border: none;
   }
   .menu {
-    position: fixed;
+    position: absolute;
     transform: translateX(100%);
     transition: transform 0.4s;
     top: -1rem;
@@ -1242,7 +1243,7 @@ w-400 {
     width: 128px;
     height: 240px;
     margin: 0 auto;
-    filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.3));
+    filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.486));
     justify-content: center;
   }
 }
