@@ -270,7 +270,7 @@ w-400 {
   .hamburger {
     position: absolute;
     z-index: 4;
-    top: 3.1rem;
+    top: 2.5rem;
     right: 1.5rem;
     cursor: pointer;
     background-color: transparent;
