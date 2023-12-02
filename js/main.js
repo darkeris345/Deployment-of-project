@@ -25,14 +25,4 @@ window.addEventListener("resize", () => {
   }, 400);
 });
 
-
 hamburger.addEventListener("click", toggleMenu);
-
-document.body.addEventListener("click", (event) => {
-  if (menu.classList.contains("showMenu")) {
-    const isClickInsideMenu = menu.contains(event.target);
-    if (!isClickInsideMenu) {
-      closeMenu();
-    }
-  }
-});

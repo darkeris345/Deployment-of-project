@@ -21,18 +21,17 @@
   }
 
   .closeIcon {
-    right: 1.5rem;
     display: none;
     background-color: transparent;
     border: none;
-    
+
   }
 
   .menu {
-    position: absolute;
+    position: fixed;
     transform: translateX(100%);
     transition: transform 0.4s;
-    top: -1rem;
+    top: -0.1rem;
     width: 300px;
     right: 0;
     bottom: 0;
@@ -43,6 +42,7 @@
     padding-top: 8.69rem;
     text-align: center;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+
 
     li {
       text-align: center;
