@@ -571,6 +571,10 @@ w-400 {
     margin: 0.2rem 0 0 2.44rem;
   }
   .bttn {
+    font-size: 0.9375rem;
+    color: #FBFCFE;
+    font-family: "Public Sans";
+    border: none;
     width: 173px;
     height: 48px;
     border-radius: 24px;
@@ -718,6 +722,10 @@ w-400 {
     display: none;
   }
   .bttn {
+    font-size: 0.9375rem;
+    color: #FBFCFE;
+    font-family: "Public Sans";
+    border: none;
     width: 173px;
     height: 48px;
     border-radius: 24px;
