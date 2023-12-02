@@ -1,0 +1,372 @@
+.head__text {
+    padding: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.win__8 {
+    text-align: center;
+}
+
+/* Styles for Mobile */
+@media screen and (max-width: 767.5px) {
+    .win__8 {
+        font-size: 32px;
+    }
+
+    .head__text {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 79px;
+    }
+
+    .title_input {
+        border-radius: 24px;
+        height: 48px;
+        width: 327px;
+        border: none;
+        padding-left: 1rem;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        font-weight: 700;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        line-height: normal;
+        // opacity: 0.5;
+        color: $secondary-colors-san-juan-blue;
+    }
+
+    .bttn__header {
+        margin-top: 16px;
+        background-color: $primary-colors-dark-pink;
+        border-radius: 24px;
+        height: 48px;
+        width: 327px;
+        border: none;
+        font-weight: 700;
+        color: $primary-colors-water-white;
+        letter-spacing: -0.115px;
+        line-height: normal;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+
+        &:hover {
+            background: $secondary-colors-charm-pink;
+            cursor: pointer;
+        }
+
+        &:active {
+            box-shadow: 0 1px #666;
+            transform: translateY(4px);
+        }
+
+    }
+
+    .btns {
+        display: grid;
+        padding: 24px;
+        justify-content: center;
+    }
+
+    .p__questions {
+        font-weight: 450;
+        color: $secondary-colors-light-juan-blue;
+        text-decoration: none;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .title__txt {
+        color: $secondary-colors-san-juan-blue;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        /* 112.5% */
+        letter-spacing: -0.246px;
+        width: 327px;
+        height: 108px;
+        margin: auto;
+    }
+
+    .contact {
+        text-decoration: none;
+        color: $secondary-colors-light-juan-blue;
+        font-weight: 700;
+    }
+
+    .center__img {
+        width: 128px;
+        height: 240px;
+        margin: 0 auto;
+        filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.30));
+        justify-content: center;
+    }
+}
+
+/* Styles for Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1439.5px) {
+
+    .win__8 {
+        font-size: 48px;
+        margin-bottom: 75px;
+        margin: 0 auto;
+    }
+
+    // NEED TO FIX THIS PART
+    .btns {
+        width: 445px;
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+
+    }
+
+    .title_input {
+        width: 445px;
+        padding-right: 10rem;
+        border-radius: 24px;
+        height: 48px;
+        border: none;
+        padding-left: 1rem;
+        // width: 100%;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        height: 48px;
+
+
+
+        font-weight: 700;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        line-height: normal;
+        // opacity: 0.5;
+    }
+
+    .bttn__header {
+        margin-top: 14.5px;
+        background-color: $primary-colors-dark-pink;
+        border-radius: 24px;
+        height: 48px;
+        width: 173px;
+        border: none;
+        font-weight: 700;
+        color: $primary-colors-water-white;
+        letter-spacing: -0.115px;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+
+        position: absolute;
+        right: 0;
+
+        &:hover {
+            background: $secondary-colors-charm-pink;
+            cursor: pointer;
+        }
+
+        &:active {
+            box-shadow: 0 1px #666;
+            transform: translateY(-1px);
+        }
+    }
+
+    .title__txt {
+        line-height: 56px;
+        margin: auto;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+        width: 573px;
+        height: 122px;
+
+    }
+
+    .p__questions {
+        margin-top: 16px;
+        font-weight: 450;
+        color: $secondary-colors-light-juan-blue;
+        text-decoration: none;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .contact {
+        text-decoration: none;
+        color: $secondary-colors-light-juan-blue;
+        font-weight: 700;
+    }
+
+    .title_input {
+        border: 0;
+        outline: 0;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
+
+    .head__text {
+        margin-left: 97px;
+        margin-right: 98px;
+    }
+
+    .center__img {
+        width: 141px;
+        height: 279px;
+        margin: 0 auto;
+        filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.30));
+        justify-content: center;
+    }
+}
+
+/* Styles for Desktop */
+@media only screen and (min-width: 1440px) {
+
+    nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    .win__8 {
+        font-size: 72px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .btns {
+        left: 0.6rem;
+        width: 445px;
+        max-width: 100%;
+        position: relative;
+        margin: auto 0;
+    }
+
+    .title_input {
+        padding-right: 7rem;
+        border-radius: 24px;
+        height: 48px;
+        width: 445px;
+        border: none;
+        padding-left: 1rem;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        font-weight: 700;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        line-height: normal;
+        // opacity: 0.5;
+        margin-left: -1rem;
+        color: $secondary-colors-san-juan-blue;
+    }
+
+    .title_input {
+        border: 0;
+        outline: 0;
+    }
+
+    input:focus {
+        outline: none !important;
+    }
+
+    .bttn__header {
+        color: $primary-colors-water-white;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.115px;
+        margin-top: 36px;
+        background-color: $primary-colors-dark-pink;
+        border-radius: 24px;
+        height: 48px;
+        width: 173px;
+        border: none;
+        font-weight: 700;
+        color: $primary-colors-water-white;
+        letter-spacing: -0.115px;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+
+        position: absolute;
+        right: 0;
+
+        &:hover {
+            background: $secondary-colors-charm-pink;
+            cursor: pointer;
+        }
+
+        &:active {
+            box-shadow: 0 1px #666;
+            transform: translateY(-1px);
+        }
+    }
+
+    .head__text {
+        margin-left: 10.31rem;
+        padding-left: 0;
+    }
+
+    .title__txt {
+        width: 546px;
+        margin-top: 100px;
+        line-height: 72px;
+        height: 243px;
+        flex-shrink: 0;
+        letter-spacing: -0.554px;
+        text-align: left;
+        // margin-left: 165px;
+        font-family: DM Serif Display;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 400;
+        color: $secondary-colors-san-juan-blue;
+    }
+
+    .contact {
+        text-decoration: none;
+        color: $secondary-colors-light-juan-blue;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .p__questions {
+        margin-top: 16px;
+        font-weight: 450;
+        color: $secondary-colors-light-juan-blue;
+        text-decoration: none;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        line-height: 28px;
+        text-align: left;
+        margin-left: 1rem;
+    }
+
+    .center__img {
+        width: 257px;
+        filter: drop-shadow(25px 25px 80px rgba(54, 83, 107, 0.30));
+    }
+
+    .center__img {
+        margin-top: 50px;
+        margin-right: 275px;
+    }
+}

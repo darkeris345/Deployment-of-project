@@ -1,0 +1,123 @@
+
+@use "variables";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
+body{
+    background-color: $primary-colors-background-color;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.benefits {
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Public Sans', sans-serif;
+  .benefits__wrapper {
+    display: grid;
+    gap: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    .benefit-card__img {
+      padding: 1.5rem;
+    }
+    .benefit-card__heading {
+      color: $secondary-colors-san-juan-blue;
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .benefit-card__text {
+      color: $secondary-colors-light-juan-blue;
+    }
+  }
+}
+
+.simple {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  .simple__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .simple__img {
+      margin-left: 2.5rem;
+    }
+    .simple__heading {
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+      color: $secondary-colors-san-juan-blue;
+    }
+    .simple__text {
+      font-family: 'Public Sans', sans-serif;
+      color: $secondary-colors-light-juan-blue;
+      max-width: 573px;
+    }
+  }
+}
+
+.easy {
+  padding-top: 3rem;
+  text-align: center;
+  .easy__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .easy__img {
+      margin-left: 2.5rem;
+    }
+    .easy__heading {
+      letter-spacing: 1px;
+      margin-bottom: 1.5rem;
+      color: $secondary-colors-san-juan-blue;
+    }
+    .easy__text {
+      font-family: 'Public Sans', sans-serif;
+      color: $secondary-colors-light-juan-blue;
+      max-width: 573px;
+    }
+  }
+}
+.about__container, .culture, .people {
+  text-align: center;
+}
+  .about__heading {
+    font-family: 'DM Serif Display', serif;;
+    letter-spacing: 1.25px;
+    color: $secondary-colors-san-juan-blue;
+    margin-bottom: 3rem;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .our-vision__heading, .our-business__heading, .culture__heading, .people__heading{
+    font-size: 2rem;
+    white-space: nowrap;
+    font-family: 'DM Serif Display', serif;
+    color: $secondary-colors-san-juan-blue;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .our-business__description, .our-vision__description, .culture__description, .people__description {
+    font-family: 'Public Sans', sans-serif;
+    color: $secondary-colors-light-juan-blue;
+  }
+
