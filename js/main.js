@@ -27,8 +27,8 @@ document.addEventListener("scroll", closeMenu);
 
 document.addEventListener("click", (event) => {
   if (menu.classList.contains("showMenu")) {
-    const isClickInsideMenu = menu.contains(event.target) || hamburger.contains(event.target);
-    if (!isClickInsideMenu) {
+    const insideMenu = menu.contains(event.target) || hamburger.contains(event.target);
+    if (!insideMenu) {
       closeMenu();
     }
   }
