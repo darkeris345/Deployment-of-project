@@ -1191,7 +1191,7 @@ w-400 {
     padding-left: 1rem;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     font-weight: 700;
-    font-family: Public Sans;
+    font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
     line-height: normal;
@@ -1209,7 +1209,7 @@ w-400 {
     letter-spacing: -0.115px;
     line-height: normal;
     text-align: center;
-    font-family: Public Sans;
+    font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
   }
@@ -1237,12 +1237,11 @@ w-400 {
   .title__txt {
     color: #36536B;
     text-align: center;
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
-    /* 112.5% */
     letter-spacing: -0.246px;
     width: 327px;
     height: 108px;
@@ -1265,7 +1264,6 @@ w-400 {
 @media only screen and (min-width: 768px) and (max-width: 1439.5px) {
   .win__8 {
     font-size: 48px;
-    margin-bottom: 75px;
     margin: 0 auto;
   }
   .btns {
@@ -1285,7 +1283,7 @@ w-400 {
     border-radius: 24px;
     height: 48px;
     font-weight: 700;
-    font-family: Public Sans;
+    font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
     line-height: normal;
@@ -1319,12 +1317,11 @@ w-400 {
     margin: auto;
     color: #36536B;
     text-align: center;
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display";
     font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: 56px;
-    /* 116.667% */
     letter-spacing: -0.369px;
     width: 573px;
     height: 122px;
@@ -1353,6 +1350,7 @@ w-400 {
   .head__text {
     margin-left: 97px;
     margin-right: 98px;
+    margin-bottom: 80px;
   }
   .center__img {
     width: 165px;
@@ -1391,7 +1389,7 @@ w-400 {
     padding-left: 1rem;
     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
     font-weight: 700;
-    font-family: Public Sans;
+    font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
     line-height: normal;
@@ -1407,7 +1405,7 @@ w-400 {
   }
   .bttn__header {
     color: #FBFCFE;
-    font-family: Public Sans;
+    font-family: "Public Sans";
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -1446,7 +1444,7 @@ w-400 {
     flex-shrink: 0;
     letter-spacing: -0.554px;
     text-align: left;
-    font-family: DM Serif Display;
+    font-family: "DM Serif Display";
     font-size: 72px;
     font-style: normal;
     font-weight: 400;
