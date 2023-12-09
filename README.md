@@ -1,4 +1,4 @@
-# Winter Project: KOUDERIAI API Website
+### Winter Project: KOUDERIAI API Website
 
 Welcome to the Winter Project by KOUDERIAI! This project is a collaborative effort by a group of students, creating a website for an imaginary company that provides APIs. The website is designed to be compatible with mobile, tablet, and desktop devices.
 
@@ -38,9 +38,6 @@ git clone https://github.com/darkeris345/Winter-project-KOUDERIAI.git
 5. Press 'Go Live' in the bottom right corner of Visual Studio Code to start the live server.
 6. Open your web browser and navigate to [http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html) to view the project.
 
-## Contributing
-
-If you'd like to contribute to this project, please follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## License
 
@@ -51,4 +48,4 @@ This project is licensed under the [MIT License](LICENSE).
 - Special thanks to the contributors who worked on this project.
 - Inspiration: [Provide source of inspiration if any]
 
-Happy coding! 🚀\"" | pbcopy
+Happy coding! 🚀
