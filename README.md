@@ -27,9 +27,9 @@ Follow these steps to set up and run the project locally:
 
 ### Installation
 
-\`\`\`bash
+```bash
 git clone https://github.com/darkeris345/Winter-project-KOUDERIAI.git
-\`\`\`
+```
 
 1. Open the project in your preferred code editor.
 2. Install the Live Sass Compiler extension. If you are using Visual Studio Code, you can find it [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
