@@ -13,13 +13,13 @@ Or you can scan QR code:
 
 ## Authors
 
-- [@darkeris345](https://github.com/darkeris345)- Developer
-- [@Eva8210](https://github.com/Eva8210)- Developer/QA
-- [@KamileDude](https://github.com/KamileDude)- Developer
-- [@kentapas](https://github.com/kentapas)- Developer/QA
-- [@Daivaras1](https://github.com/Daivaras1)- Developer
-- [@ugggie](https://github.com/ugggie)- Developer
-- [@katzeydds](https://github.com/katzeydds)- QA
+- [@darkeris345](https://github.com/darkeris345) - Developer
+- [@Eva8210](https://github.com/Eva8210) - Developer/QA
+- [@KamileDude](https://github.com/KamileDude) - Developer
+- [@kentapas](https://github.com/kentapas) - Developer/QA
+- [@Daivaras1](https://github.com/Daivaras1) - Developer
+- [@ugggie](https://github.com/ugggie) - Developer
+- [@katzeydds](https://github.com/katzeydds) - QA
 
 ## Getting Started
 
