@@ -27,7 +27,7 @@ Follow these steps to set up and run the project locally:
 
 ### Installation
 
-``bash
+```bash
 git clone https://github.com/darkeris345/Winter-project-KOUDERIAI.git
 
 
