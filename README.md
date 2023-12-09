@@ -4,7 +4,7 @@ Welcome to the Winter Project by KOUDERIAI! This project is a collaborative effo
 
 ## Visuals
 
-Check out the live deployment of the project [here](https://deployment-of-project.vercel.app/index.html).
+Check out the live deployment of the project [here](https://winter-project-kouderiai.vercel.app/).
 
 ## Authors
 
@@ -27,9 +27,9 @@ Follow these steps to set up and run the project locally:
 
 ### Installation
 
-```bash
+\`\`\`bash
 git clone https://github.com/darkeris345/Winter-project-KOUDERIAI.git
-```
+\`\`\`
 
 1. Open the project in your preferred code editor.
 2. Install the Live Sass Compiler extension. If you are using Visual Studio Code, you can find it [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
@@ -46,6 +46,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - Special thanks to the contributors who worked on this project.
-- Inspiration: [Provide source of inspiration if any]
+- Inspiration: Our motivation is the key to overcome all obsticales.
 
 Happy coding! 🚀
