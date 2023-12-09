@@ -7,8 +7,9 @@ Welcome to the Winter Project by KOUDERIAI! This project is a collaborative effo
 Check out the live deployment of the project [here](https://winter-project-kouderiai.vercel.app/).
 
 Or you can scan QR code:
+```
 ![QR Code](https://i.imgur.com/e6yyYYT.png)
-
+```
 ## Authors
 
 - [@darkeris345](https://github.com/darkeris345)
