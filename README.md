@@ -1,4 +1,4 @@
-echo "# Winter Project: KOUDERIAI API Website
+# Winter Project: KOUDERIAI API Website
 
 Welcome to the Winter Project by KOUDERIAI! This project is a collaborative effort by a group of students, creating a website for an imaginary company that provides APIs. The website is designed to be compatible with mobile, tablet, and desktop devices.
 
