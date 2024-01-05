@@ -1,6 +1,7 @@
 import { displayUsers } from './displayUsers.js';
 import { capitalize } from './capitalizeGetAddress.js';
 import { filterAddress } from './filterByCountry.js';
+import {wrongCountry} from './displayError.js';
 
 const endpoint = "https://65834d5d4d1ee97c6bcdcb91.mockapi.io/techin/users";
 
@@ -35,7 +36,12 @@ button.addEventListener("click", async () => {
     if (response.ok) {
       let users = await response.json();
       let filtered = filterAddress(users, capitalize(input.value));
-      displayUsers(filtered, outputCard);
+      if(filtered.length > 0){
+        displayUsers(filtered, outputCard);
+      }else{
+        wrongCountry(outputCard);
+      }
+  
     } else {
       throw new Error("HTTP Error");
     }

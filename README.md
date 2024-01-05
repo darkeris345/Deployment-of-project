@@ -1,56 +1,59 @@
-# Winter Project: KOUDERIAI API Website
+# Small CRUD Project
 
-Welcome to the Winter Project by KOUDERIAI! This project is a collaborative effort by a group of students, creating a website for an imaginary company that provides APIs. The website is designed to be compatible with mobile, tablet, and desktop devices.
+## Introduction
+
+This project is a small CRUD (Create, Read, Update, Delete) application that allows you to perform basic operations on a collection of users. It is a client-side application using HTML, CSS, and JavaScript. The backend is simulated using a mock API provided by [MockAPI](https://mockapi.io/).
+
+## Features
+
+- **Filter Users by Country**: Retrieve a list of users based on the entered country name.
+- **Add New User**: Post a new user to the collection with a username, email, country, and avatar.
+- **Update User Information**: Update user details such as username, email, country, and avatar.
+- **Delete User**: Remove a user from the collection based on their user ID.
+
+## Usage
+
+1. **Filter Users by Country (GET)**
+   - Enter the country name in the input field.
+   - Click on the "Filter" button to see users from the specified country.
+
+2. **Add New User (POST)**
+   - Fill in the details for the new user (username, email, country, avatar).
+   - Click on the "Post New User" button to add the user.
+
+3. **Update User Information (PATCH)**
+   - Enter the User ID of the user you want to update.
+   - Provide the new details for the user (username, email, country, avatar).
+   - Click on the "Update User" button to save the changes.
+
+4. **Delete User (DELETE)**
+   - Enter the User ID of the user you want to delete.
+   - Click on the "Delete" button to remove the user from the collection.
+
+## Setup
+
+1. **Download the Project**: 
+- Click on the "Code" button and choose "Download ZIP" from the dropdown.
+2. **Open the Project Folder**: 
+- Extract the ZIP file and open the project folder.
+3. **Run the Application**:  
+- Once the project folder is open in VSC, find the `index.html` file.
+- Right-click on `index.html` in the Explorer and choose "Open with Live Server" if you have the Live Server extension installed. This will open the application in your default web browser.
+
+
+## Dependencies
+
+- [Bootstrap](https://getbootstrap.com/) v5.3.2
 
 ## Visuals
 
 Check out the live deployment of the project [here](https://winter-project-kouderiai.vercel.app/).
 
-Or you can scan QR code:
 
+## Author
 
-![QR Code](https://i.imgur.com/e6yyYYT.png)
-
-## Authors
-
-- [@darkeris345](https://github.com/darkeris345) - Developer
-- [@Eva8210](https://github.com/Eva8210) - Developer/QA
-- [@KamileDude](https://github.com/KamileDude) - Developer
-- [@kentapas](https://github.com/kentapas) - Developer/QA
-- [@Daivaras1](https://github.com/Daivaras1) - Developer
-- [@ugggie](https://github.com/ugggie) - Developer
-- [@katzeydds](https://github.com/katzeydds) - QA
-
-## Getting Started
-
-Follow these steps to set up and run the project locally:
-
-### Prerequisites
-
-- [Git](https://git-scm.com/) installed on your machine
-- [Visual Studio Code](https://code.visualstudio.com/) or any code editor of your choice
-
-### Installation
-
-```bash
-git clone https://github.com/darkeris345/Winter-project-KOUDERIAI.git
-```
-
-1. Open the project in your preferred code editor.
-2. Install the Live Sass Compiler extension. If you are using Visual Studio Code, you can find it [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
-3. Press 'Watch Sass' in the bottom right corner of Visual Studio Code to compile SCSS files.
-4. Install the Live Server extension. If you are using Visual Studio Code, you can find it [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-5. Press 'Go Live' in the bottom right corner of Visual Studio Code to start the live server.
-6. Open your web browser and navigate to [http://127.0.0.1:5500/index.html](http://127.0.0.1:5500/index.html) to view the project.
-
+- [@darkeris345](https://github.com/darkeris345) 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Special thanks to the contributors who worked on this project.
-- Inspiration: Our motivation is the key to overcome all obsticales.
-
-Happy coding! 🚀
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

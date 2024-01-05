@@ -16,5 +16,4 @@ const displayUsers = (users, output) => {
   });
 };
 
-// Export the function for use in other files
 export { displayUsers };
