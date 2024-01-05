@@ -1,8 +1,13 @@
-@import "variables";
-@import "base";
-@import "reference";
-@import "breakpoints";
-@import "button";
-@import "footer";
-@import "navbar";
-@import "header";
+*{
+    box-sizing: border-box;
+}
+
+body{
+    section{
+        background-color: rgba(196, 215, 228, 0.233);
+        input{
+            background-color: rgba(180, 207, 243, 0.288);
+        }
+    }
+}
+
