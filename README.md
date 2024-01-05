@@ -47,7 +47,7 @@ This project is a small CRUD (Create, Read, Update, Delete) application that all
 
 ## Visuals
 
-Check out the live deployment of the project [here](https://winter-project-kouderiai.vercel.app/).
+Check out the live deployment of the project [here](https://deployment-of-project.vercel.app/).
 
 
 ## Author
